@@ -1,0 +1,57 @@
+
+
+#letra{ 
+text-align: center;
+color: blueviolet;
+
+}
+
+#carouselExampleAutoplaying{
+   
+border: 1px springgreen;
+}
+
+#imagenesdecarrusel{
+    width: 100%;
+}
+
+
+.about {
+  background-color: #f2f2f2;
+  padding: 40px 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+
+
+  /* Estilos para el pie de página */
+  #footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    
+  }
+
+.pe{color: aqua;
+    
+}
+#acheuno{
+  font-family: 'Zen Tokyo Zoo', cursive;
+font-display: left;
+width: 280px;}
