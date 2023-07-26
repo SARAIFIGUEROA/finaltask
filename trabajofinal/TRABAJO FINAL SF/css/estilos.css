@@ -1,0 +1,20 @@
+
+#acaimagen {
+   background-color: black;
+
+}
+
+#letra{ 
+text-align: center;
+color: blueviolet;
+
+}
+
+#carouselExampleAutoplaying{
+width: 1100px; ;
+}
+
+.menu-icon{
+   display: flex;
+   float: right;
+}

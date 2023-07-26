@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keys</title>
+</head>
+<body>
+    <header>
+
+    </header>
+   <!--Productos destacados de keys-->
+    <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!--cards dinamicos-->
+      <div class="container px-4 text-center">
+        <div class="row gx-5">
+            <div class="col-2">
+                <div class="p-3">
+                    <div class="form-group">
+                        <label for="exampleSelect1" class="form-label mt-4 text-light">Cantidad</label>
+                        <select class="form-select " id="cantidad">
+                            <option>4 octavas</option>
+                            <option>5 octavas</option>
+                            <option>6 octavas</option>
+                
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleSelect1" class="form-label mt-4 text-light">Productos</label>
+                        <select class="form-select" id="ropa">
+                            <option></option>
+                            <option></option>
+                            <option></option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary my-3" onclick="card()">ver</button>
+                </div>
+            </div>
+    
+            <div class="col-10">
+                <div class="p-3">
+                    <div class="container px-4 text-center" id="contenedorparaborrar">
+                        <div class="row gx-5" id="divuno">
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    </div>
+    
+
+</body>
+</html>
